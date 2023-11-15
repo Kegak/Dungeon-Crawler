@@ -1,0 +1,24 @@
+[gd_scene load_steps=3 format=3 uid="uid://b4gdr4d1xj41o"]
+
+[ext_resource type="Texture2D" uid="uid://btfyco67lb5sw" path="res://art/You Win!.png" id="1_6vheo"]
+[ext_resource type="Script" path="res://WinButton.gd" id="1_6xotc"]
+
+[node name="you_win" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(4.00001, 4.00003)
+scale = Vector2(0.993056, 1)
+texture = ExtResource("1_6vheo")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="Button" type="Button" parent="."]
+offset_left = -209.0
+offset_top = 173.0
+offset_right = 207.0
+offset_bottom = 296.0
+theme_override_font_sizes/font_size = 40
+text = "Return to Main Menu"
+script = ExtResource("1_6xotc")
+
+[connection signal="pressed" from="Button" to="Button" method="_on_pressed"]

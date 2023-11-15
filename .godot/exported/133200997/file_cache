@@ -1,0 +1,10 @@
+res://enemies/follow_enemy.tscn::908b3a9df8b8c71804c64d7fc1f407ac::1698636445::res://.godot/exported/133200997/export-57743e22a3159f0668b87d3d88ad9455-follow_enemy.scn
+res://enemies/path_enemy.tscn::a32a0cb9715830dbf058fb4f59065212::1698636445::res://.godot/exported/133200997/export-ec8cf447a23a3a322e2d6718d7b27942-path_enemy.scn
+res://game_over.tscn::e963b6addb284551a2ff707932442d59::1698636445::res://.godot/exported/133200997/export-d8e4acb474e0f28479495aaad84d873f-game_over.scn
+res://heart.tscn::9ab68011385bbb505529991699552701::1698636445::res://.godot/exported/133200997/export-b2e26e438636898eddb9e1b54f81a9ee-heart.scn
+res://heavySword.tscn::7b3b836c4c62bbee71ace96650b2c7a7::1698636445::res://.godot/exported/133200997/export-4623ee4bca690a01f59812a87ea2458f-heavySword.scn
+res://lightSword.tscn::f33d80a7967d18d9b4e7d63f556fd301::1698636445::res://.godot/exported/133200997/export-71789be8367980690f3d941b4b8ed90d-lightSword.scn
+res://main_scene.tscn::f9960ea0af211eba47a3617094a5b296::1698636445::res://.godot/exported/133200997/export-fac9db9380da720a7609154e1ecab771-main_scene.scn
+res://player.tscn::4782f6e6e7eca20f77cd5d96d0b1152b::1698636445::res://.godot/exported/133200997/export-36a25e342948d0ceacc500772b5412b3-player.scn
+res://start_menu.tscn::ce2d7e4c93a009bbe10e49b7091cbf9e::1698637264::res://.godot/exported/133200997/export-6ef4cc1f92f36a58300400127ea612ec-start_menu.scn
+res://you_win.tscn::33ac0651a604210e7d39fedbf4e582f9::1698637237::res://.godot/exported/133200997/export-5b801698b5f67cbc90fc9a22c524aa34-you_win.scn

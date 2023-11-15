@@ -1,0 +1,48 @@
+[gd_scene load_steps=3 format=3 uid="uid://doko42auoawmu"]
+
+[ext_resource type="Script" path="res://GameOverButton.gd" id="1_b6hr5"]
+[ext_resource type="Texture2D" uid="uid://bokkwlcdeendp" path="res://art/BlackBackground.jpeg" id="2_tr7bo"]
+
+[node name="GameOver" type="Node2D"]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+offset_left = -386.0
+offset_top = -305.0
+offset_right = 394.0
+offset_bottom = -69.0
+theme_override_colors/default_color = Color(1, 0, 0, 1)
+theme_override_colors/font_selected_color = Color(1, 0, 0, 1)
+theme_override_font_sizes/normal_font_size = 140
+text = "Game Over"
+
+[node name="Button" type="Button" parent="."]
+offset_left = -212.0
+offset_top = 90.0
+offset_right = 210.0
+offset_bottom = 236.0
+theme_override_colors/font_color = Color(1, 0, 0, 1)
+theme_override_font_sizes/font_size = 50
+text = "RESTART"
+script = ExtResource("1_b6hr5")
+
+[node name="RichTextLabel2" type="RichTextLabel" parent="."]
+offset_left = -402.0
+offset_top = -54.0
+offset_right = 465.0
+offset_bottom = 72.0
+theme_override_colors/default_color = Color(1, 0, 0, 1)
+theme_override_font_sizes/normal_font_size = 60
+text = "\"One hit for me, as for thee.\""
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="."]
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground"]
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer"]
+position = Vector2(122, 197)
+scale = Vector2(7.2021, 13.4929)
+texture = ExtResource("2_tr7bo")
+
+[connection signal="pressed" from="Button" to="Button" method="_on_pressed"]

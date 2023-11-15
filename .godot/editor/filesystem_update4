@@ -1,0 +1,11 @@
+res://main_scene.tscn
+res://start_menu.tscn
+res://lightSword.tscn
+res://player.tscn
+res://heavySword.tscn
+res://game_over.tscn
+res://enemies/path_enemy.tscn
+res://enemies/follow_enemy.tscn
+res://you_win.tscn
+res://heart.tscn
+res://heart.gd

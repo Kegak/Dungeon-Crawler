@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://b2panpv82snhk"]
+
+[ext_resource type="Texture2D" uid="uid://cjobypsort74n" path="res://Temp Assets/0x72_DungeonTilesetII_v1.6/frames/weapon_anime_sword.png" id="1_obocd"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_pe4vr"]
+size = Vector2(38, 109)
+
+[node name="heavySword" type="Area2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(0, -47)
+scale = Vector2(5, 5)
+texture = ExtResource("1_obocd")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -66)
+shape = SubResource("RectangleShape2D_pe4vr")
